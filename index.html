@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>🌍 Where Are You From?</h1>
+    <form id="locationForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="text" id="location" placeholder="Where are you from?" required />
+        <button type="submit">Add Pin</button>
+    </form>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
